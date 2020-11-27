@@ -57,7 +57,7 @@ const Footer  = () =>{
                             <li>
                                 <a 
                                     target="_blank"
-                                    href="https://www.goodreads.com/strattonpress/">
+                                    href="https://www.goodreads.com/book/show/53218748-another-jesus-movement?ac=1&from_search=true&qid=nX0IDP27GD&rank=1">
                                     <FontAwesomeIcon 
                                         className='font-awesome'
                                         icon={faGoodreads}

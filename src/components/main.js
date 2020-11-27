@@ -7,6 +7,7 @@ import Book1 from '../../static/books/3rd_book.png'
 import Book2 from '../../static/books/1st_book.png'
 import Book3 from '../../static/books/2nd_book.png'
 import Book4 from '../../static/books/4th_book.png'
+import Book5 from '../../static/books/5th_book.png'
 
 
 /*GSAP*/
@@ -39,6 +40,9 @@ const Main = (props) =>{
         }
         else if ( bookState === 4){
             return Book4
+        }
+        else if(bookState === 5){
+            return Book5
         }
     } 
         

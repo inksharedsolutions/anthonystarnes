@@ -63,6 +63,22 @@ const Content = (props) =>{
              />
            )
         }
+
+        else if(slideState === 5){
+            return (
+                <BookContentsTitle
+                title={`What to Expect`}
+                spnTitle={`Prophet Anthony Starnes`}
+                content={`My Original unedited suppressed prophetic manuscript entitle: What to
+                expect concrens you as it constitutes always gives a warning before He sends judgment.
+                My written prophecy is NOT politically correct and will certainly disappoint and offend
+                many, as true prophecy always does. Nor is it just a spiritual esoteric eschatology 
+                but includes the hidden issue of the day that God wants to know, since they have caused
+                American to sin more.`}
+                srcLink={`/books#book3`}
+             />
+            )
+        }
     }
 
     return(

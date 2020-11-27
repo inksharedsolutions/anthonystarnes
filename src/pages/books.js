@@ -5,10 +5,11 @@ import { DiscussionEmbed } from "disqus-react"
 import Footer from "../components/footer"
 
 /*Images*/
-import Book1 from "../../static/books/1st_book.png"
+import Book1 from "../../static/books/3rd_book.png"
 import Book2 from "../../static/books/2nd_book.png"
-import Book3 from "../../static/books/3rd_book.png"
+import Book3 from "../../static/books/1st_book.png"
 import Book4 from "../../static/books/4th_book.png"
+import Book5 from "../../static/books/5th_book.png"
 
 
 const ATB = (props) =>{
@@ -18,7 +19,7 @@ const ATB = (props) =>{
 
 	const disqusConfig = {
 	  shortname: 'prophet-anthony-starnes',
-	  config: { identifier:  12, slug}
+      config: { identifier:  12, slug},
     }
     
 
@@ -35,129 +36,72 @@ const ATB = (props) =>{
                         <section className="body-contents">
                             <BookInfo  
                             data={{
-                                    title:`Kur's Rage`,
-                                    spanTitle: 'Part 1 of the Duaredheim Staff Saga',
-                                    imgSrc: Book2,
+                                    title:`COVID 19 Truth Revealed`,
+                                    spanTitle: '',
+                                    imgSrc: Book1,
                                     order:false,
                                     content:
                                     `<p>
-                                        Stand on the parapets of Highcrest Garrison as the
-                                        characters prepare for battle against a demon lord and his
-                                        fiendish minions. Feel their sorrow in the tour’s aftermath
-                                        as they decide to reunite in search of new adventures. A chance 
-                                        meeting with a mysterious wizard compels them to undertake a scouting mission.
-                                        During their journey, they encounter an enemy army and must discover 
-                                        the motivations of its dark commander. Join them as they face dire wolves,
-                                        Red Orcs, and supernatural foes.
-                                     </p>
-                                    
-                                     <p>
-                                        Twists of fate, ancient clues, and unknown enemies will lead 
-                                        them toward a prophesied quest that could change their world, 
-                                        and two parallel storylines will intertwine as they race to 
-                                        acquire the lost pieces of an ancient artifact before their 
-                                        nemesis. 
-                                     </p>
-                                     <p>
-                                        Sitting by the fire, an old Gnome narrates all these to three young 
-                                        soldiers in a village tavern. The old Gnome’s fantastic tale seems 
-                                        impossible—until his audience meets some of his characters in the flesh!
-                                     </p>
-                                     <p>
-                                        Magic, fairy races, dragons, and a wide pantheon of gods weave a
-                                        fine tapestry in Kur’s Rage. Triumph of the spirit and the love and 
-                                        loyalty of its characters are what set it apart. 
+                                        The Prophet Anthony Starnes is a wheelchaid disabled new testament
+                                        prophet who was told by God to write this prophetic book as the 
+                                        divinity of Jesus Christ needs to be emphasized issue has not yet been
+                                        corrected and covered by anyone and the God of Justice wants to see to 
+                                        it that those he loves receive the justice from naughty and sinful man 
+                                        that they deserve.
                                      </p>
                                      `,
 
-                                    ebooks:{
-                                        stratton: 'https://www.stratton-press.com/books/kurs-rage-part-1-of-the-duaredheim-staff-saga/',
-                                        barnes: 'https://www.barnesandnoble.com/w/kurs-rage-erik-dj-obrien/1133203332?ean=9781643456478',
-                                        amazon:'https://www.amazon.com/Kurs-Rage-Part-Duaredheim-Staff-ebook/dp/B07X3Y6DY7/ref=sr_1_1?dchild=1&keywords=erik+obrien&qid=1595480426&sr=8-1', 
+                                    ebooks:{ 
                                     },
                                     paperback:{
-                                        amazon:'https://www.amazon.com/Kurs-Rage-Part-Duaredheim-Staff/dp/1643454846/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=1595480426&sr=8-1',
-                                        barnes:'https://www.barnesandnoble.com/w/kurs-rage-erik-dj-obrien/1133203332?ean=9781643454849',
-                                        booksamillion:'https://www.booksamillion.com/p/Kurs-Rage/Erik-D-J-OBrien/9781643454849?id=7954811514842',
+                                        
                                     }
                                 }}
                             />
 
                          <BookInfo  
                                 data={{
-                                title:`The Drums of Doom`,
-                                spanTitle: 'Part 2 of the Duaredheim Staff Saga',
-                                imgSrc: Book3,
+                                title:`REPARATION FOR SLAVERY`,
+                                spanTitle: '',
+                                imgSrc: Book2,
                                 order:true,
                                 content:
                                 `<p>
-                                    The second part of Erik D. J. O’Brien’s The Duaredheim Staff
-                                    Saga contains excerpts from the Chronicles of Olak Tempestus, 
-                                    which describes in detail the actions and plans of Vlad’s 
-                                    revolutionaries and their taking of hostages dearest to the
-                                    Fermen’s hearts. At the end of the book, Erik also introduces 
-                                    his great uncle, John Elias Anderson of Monson, Massachusetts,
-                                    WWII veteran, wounded at Capri Leone, Sicily, on August 10, 
-                                    1943, and immortalizes him forever in this work as Sir John.
+                                    In conclusion; my prophetic book has proven Reparations For Slavery
+                                    should be paid by the Muslim nations. This has been the word of the
+                                    Lord, thanks be to God! So let it be written, so let it be done.
                                 </p>
                             
-                                <p>
-                                    Drawn by the enchanted pull of the locating scepter, Kalor
-                                    leads Carmen’s rangers into the treacherous, uncharted depths
-                                    of Underearth. With courage and the unquenchable spirit of 
-                                    soldiers, they embark upon a perilous journey in exploration 
-                                    of the Secret Way.  After an encounter with the terrible Darg,
-                                    they battle for their lives in the Halls of the Dead.
-                                    In possession of the gem of the staff, they race to acquire 
-                                    the rest of the artifact and save their world.
-                                </p>`,
+                                `,
 
                                 ebooks:{
-                                    stratton: 'https://www.stratton-press.com/books/the-drums-of-doom-part-2-of-the-duaredheim-staff-saga/',
-                                    barnes: 'https://www.barnesandnoble.com/w/the-drums-of-doom-erik-d-j-obrien/1133208530?ean=9781643457390',
-                                    amazon:'https://www.amazon.com/Drums-Doom-Part-Duaredheim-Staff-ebook/dp/B07XSNZHLV/ref=sr_1_2?dchild=1&keywords=erik+obrien&qid=1595481431&sr=8-2', 
+                                    
                                 },
                                 paperback:{
-                                    amazon:'https://www.amazon.com/Drums-Doom-Part-Duaredheim-Staff/dp/1643455036/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=1595481431&sr=8-2',
-                                    barnes:'https://www.barnesandnoble.com/w/the-drums-of-doom-erik-d-j-obrien/1133208530?ean=9781643455037',
-                                    booksamillion:'https://www.booksamillion.com/p/Drums-Doom/Erik-D-J-OBrien/9781643455037?id=7954811514842',
+                                    
                                 }
                             }}
                          />
 
                         <BookInfo  
                             data={{
-                                title:`The Last Admiral`,
-                                    spanTitle: 'Part 3 of the Duaredheim Staff Saga',
-                                    imgSrc: Book1,
+                                title:`Jesus the real star child`,
+                                    spanTitle: '',
+                                    imgSrc: Book3,
                                     order:false,
                                     content:
                                     `<p>
-                                        This prequel to Kur’s Rage is part 3 of The Duaredheim Staff 
-                                        Saga and portrays the final adventures of the 11th Fleet and
-                                        their last admiral. Stand with Aklon when he receives a fateful
-                                        letter calling him off to war. Feel his sorrow as he says farewell
-                                        and leads his armada on a desperate mission. Travel the Underearth
-                                        with Vlad and Darik as they must journey in secret to the academy
-                                        in order to thwart a deadly assassin. Do battle with Raythe, the
-                                        mysterious butler, and Phu as they struggle against Rak Shasa,
-                                        a demonic entity, and the diabolical Caretakers of the Abyss.
-                                        Prepare yourself for what may be the longest fantasy naval battle
-                                        ever written. This epic struggle introduces the terrible general
-                                        Jing Jang Lo and the ruthless forces of the Dragonian Queen as 
-                                        she seeks to destroy Aklon and his ideals of freedom, and ends 
-                                        with the first chapter of part 4, The Ice Moon.
+                                        Jesus the real star child is that lights everyman
+                                        that comes into the World. By him were all things made 
+                                        and by his cross are all things reconciled to God. This is 
+                                        why the three wise men came to worhsip him.
                                     </p>`,
 
                                     ebooks:{
-                                        stratton: 'https://www.stratton-press.com/books/the-last-admiral-part-3-of-the-duaredheim-staff-saga/',
-                                        barnes: 'https://www.barnesandnoble.com/w/the-last-admiral-erik-d-j-obrien/1123607884?ean=9781643457604',
-                                        amazon:'https://www.amazon.com/Last-Admiral-Part-Duaredheim-Staff-ebook/dp/B081K9H7B7/ref=sr_1_3?dchild=1&keywords=erik+obrien&qid=1595481673&sr=8-3', 
+                                        
                                     },
                                     paperback:{
-                                        amazon:'https://www.amazon.com/Last-Admiral-Part-Duaredheim-Staff/dp/1643454439/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=1595481673&sr=8-3',
-                                        barnes:'https://www.barnesandnoble.com/w/the-last-admiral-erik-d-j-obrien/1123607884?ean=9781643454436',
-                                        booksamillion:'https://www.booksamillion.com/p/Last-Admiral/Erik-D-J-OBrien/9781643454436?id=7954811514842',
+                                        
                                     }
                                 }}
                             />
@@ -165,41 +109,65 @@ const ATB = (props) =>{
 
                             <BookInfo  
                                 data={{
-                                title:`The Ice Moon`,   
-                                spanTitle: 'Part 4 of the Duaredheim Staff Saga',
+                                title:`Another Jesus Movement`,   
+                                spanTitle: '',
                                 imgSrc: Book4,
                                 order:true,
                                 content:
                                 `
                                     <p>
-                                      This epic conclusion to The Duaredheim Staff Saga begins with
-                                      a detailed retelling of Prince Loren’s tragic last stand upon
-                                      the hilltop Korun-Dorr and the story of Carmen’s Rangers harrowing
-                                      escape from the Underearth. The Ice Moon, Part 4 of The Duaredheim
-                                      Staff Saga portrays their subsequent encounter with their nemesis,
-                                      and the adventures that bring them to their final confrontation with
-                                      Queen Aphra and the armies of Dragonia. Fly with Carmen’s Rangers
-                                      as they rocket towards the Ice Moon upon the Star Vessel Imperium.
-                                    </p>
-
-                                    <p>     
-                                      Fight beside them as they face the White Wyrms of the surface
-                                      and confront their diabolical leader in search of the Circlet
-                                      of the Staff. March with the Kings of Safehaven as they assemble
-                                      their forces in defense of their homeland. Stand with Vlad, Carmen’s
-                                      Rangers and their unlikely allies as the armies of Fermenor face off
-                                      against the largest military force ever assembled by Dragonia.
-                                      Feel their anguish in the heat of battle when all seems lost and
-                                      only a long forgotten force from the sea can save them. The Ice Moon,
-                                      Part 4 of The Duaredheim Staff Saga concludes the series, which began
-                                      with Kur’s Rage, The Drums of Doom, and The Last Admiral.
+                                      Another Jesus Movement is a documented record
+                                      of spiritual gifts including prophecies, words of 
+                                      knowledge and words of wisdom that were given by God
+                                      to the New Testament Prophet Anthony Starnes as evidence
+                                      that God still speaks today abou the past, present, and future...
                                     </p>
                                 `,
 
-                                ebooks:{},
-                                paperback:{}
+                                ebooks:{
+                                    stratton: 'https://www.stratton-press.com/books/another-jesus-movement/',
+                                    barnes: 'https://www.barnesandnoble.com/w/another-jesus-movement-prophet-anthony-starnes/1131711216?ean=9781643459837',
+                                    amazon:'https://www.amazon.com/Another-Movement-Prophet-Anthony-Starnes-ebook/dp/B0872H4F8M/ref=sr_1_1?dchild=1&keywords=9781643459837&qid=1588018124&sr=8-1', 
+                                },
+                                paperback:{
+                                    amazon:'https://www.amazon.com/Another-Movement-Prophet-Anthony-Starnes/dp/1643459821/ref=sr_1_1?dchild=1&keywords=9781643459820&qid=1588018143&sr=8-1',
+                                    barnes:'https://www.barnesandnoble.com/w/another-jesus-movement-prophet-anthony-starnes/1131711216?ean=9781643459820',
+                                    booksamillion:'https://www.booksamillion.com/p/Another-Jesus-Movement/Prophet-Anthony-Starnes/9781643459820?id=8049069540563&_ga=2.78106260.144254833.1606293192-2145380449.1604906972',
+                                }
                             }}
                          />
+
+                        <BookInfo  
+                            data={{
+                                title:`What to Expect`,
+                                    spanTitle: '',
+                                    imgSrc: Book5,
+                                    order:false,
+                                    content:
+                                    `<p>
+                                        My Original Unedited suppressed prophetic manuscript entitled: What
+                                        to expect concersn you as it constitutes your warning from God about 
+                                        your future. For God always gives a warning before He sends judgment. 
+                                        My written prophecy is NOT politically correct and will certainly
+                                        disappoint and offend many, as true prophecy always does. Nor is it just 
+                                        a spiritual esoteric eschatology but it includes the hidden issue of the 
+                                        day that God wants to know, since they have caused America to sin more. 
+                                        From  the global warming deception that has increased unemployment, to the 
+                                        economic fraud of recovery via bailouts, socialist deficits, the American
+                                        Prosperity Message, the fluoridation of public drinking waters, GMO Foods,
+                                        high fructose corn syrup, extra terrestrial grey aliens
+                                        and illegal aliens resulting in earthquakes, pestilences and famines after Obama's
+                                        demonic decptions causes another mean spirited Civil War. Because in 
+                                        God's judgement deceptions then wars come first, then the destruction of America
+                                        or any other place in the world by 'natural causes'.
+                                    </p>`,
+
+                                    ebooks:{
+                                    },
+                                    paperback:{
+                                    }
+                                }}
+                            />
 
                         </section>
 

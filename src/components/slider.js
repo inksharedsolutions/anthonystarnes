@@ -10,6 +10,7 @@ import Book1 from '../../static/front_covers/book_1.jpg'
 import Book2 from '../../static/front_covers/book_2.jpg'
 import Book3 from '../../static/front_covers/book_3.jpg'
 import Book4 from '../../static/front_covers/book_4.jpg'
+import Book5 from '../../static/front_covers/book_5.jpg'
 
 const SliderComponent = (props) =>{
 
@@ -73,6 +74,12 @@ const SliderComponent = (props) =>{
                     onClick={()=>onClickEvent(4)}>
                     <span>04</span>
                     <img src={Book4}/>
+                </div>
+
+                <div className="book-wrapper-slider"
+                    onClick={() => onClickEvent(5)}>
+                    <span>05</span>
+                    <img src={Book5} />
                 </div>
         
                 
